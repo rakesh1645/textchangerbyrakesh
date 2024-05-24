@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Component/Navbar';
 import Text from './Component/Text';
 import Alert from './Component/Alert';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from './Component/About';
 

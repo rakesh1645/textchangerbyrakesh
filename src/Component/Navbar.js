@@ -2,7 +2,9 @@ import React from 'react';
 import '../Style/style.css';
 import { Link } from 'react-router-dom';
 
-export default function Navbar(props) {
+
+
+export default function Navbara(props) {
   const changeColorRed = () => {
     document.body.style.backgroundColor = "red";
     props.showAlert("The Red Background color is ", "Success");
@@ -44,5 +46,6 @@ export default function Navbar(props) {
         </div>
       </div>
     </nav>
+  
   );
 }
